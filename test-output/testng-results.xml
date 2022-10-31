@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="UnoSuite" duration-ms="51116" started-at="2022-10-31T14:29:24 CST" finished-at="2022-10-31T14:30:15 CST">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="51116" started-at="2022-10-31T14:29:24 CST" finished-at="2022-10-31T14:30:15 CST">
+      <class name="com.testsuite.UnoSuite">
+        <test-method status="PASS" signature="setDriver(java.lang.String)[pri:0, instance:com.testsuite.UnoSuite@5ed828d]" name="setDriver" is-config="true" duration-ms="5548" started-at="2022-10-31T14:29:24 CST" finished-at="2022-10-31T14:29:30 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com.mx/ref=nav_logo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="Validate_isbiggerThan()[pri:1, instance:com.testsuite.UnoSuite@5ed828d]" name="Validate_isbiggerThan" duration-ms="9596" started-at="2022-10-31T14:29:30 CST" finished-at="2022-10-31T14:29:39 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_isbiggerThan -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.testsuite.UnoSuite@5ed828d]" name="closeDriver" is-config="true" duration-ms="921" started-at="2022-10-31T14:29:39 CST" finished-at="2022-10-31T14:29:40 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="setDriver(java.lang.String)[pri:0, instance:com.testsuite.UnoSuite@5ed828d]" name="setDriver" is-config="true" duration-ms="3088" started-at="2022-10-31T14:29:40 CST" finished-at="2022-10-31T14:29:43 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com.mx/ref=nav_logo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="Validate_islessThan()[pri:2, instance:com.testsuite.UnoSuite@5ed828d]" name="Validate_islessThan" duration-ms="10713" started-at="2022-10-31T14:29:43 CST" finished-at="2022-10-31T14:29:54 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_islessThan -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.testsuite.UnoSuite@5ed828d]" name="closeDriver" is-config="true" duration-ms="1005" started-at="2022-10-31T14:29:54 CST" finished-at="2022-10-31T14:29:55 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="setDriver(java.lang.String)[pri:0, instance:com.testsuite.UnoSuite@5ed828d]" name="setDriver" is-config="true" duration-ms="3234" started-at="2022-10-31T14:29:55 CST" finished-at="2022-10-31T14:29:58 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com.mx/ref=nav_logo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="Validate_DontAddProtection()[pri:3, instance:com.testsuite.UnoSuite@5ed828d]" name="Validate_DontAddProtection" duration-ms="15934" started-at="2022-10-31T14:29:58 CST" finished-at="2022-10-31T14:30:14 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_DontAddProtection -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.testsuite.UnoSuite@5ed828d]" name="closeDriver" is-config="true" duration-ms="1031" started-at="2022-10-31T14:30:14 CST" finished-at="2022-10-31T14:30:15 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.testsuite.UnoSuite -->
+    </test> <!-- Test1 -->
+  </suite> <!-- UnoSuite -->
+</testng-results>

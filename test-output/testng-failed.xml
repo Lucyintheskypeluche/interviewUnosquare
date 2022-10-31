@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [UnoSuite]">
+  <test thread-count="5" name="Test1(failed)">
+    <parameter name="url" value="https://www.amazon.com.mx/ref=nav_logo"/>
+    <classes>
+      <class name="com.testsuite.UnoSuite">
+        <methods>
+          <include name="Validate_isbiggerThan"/>
+          <include name="closeDriver"/>
+          <include name="setDriver"/>
+        </methods>
+      </class> <!-- com.testsuite.UnoSuite -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [UnoSuite] -->
